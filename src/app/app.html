@@ -1,0 +1,66 @@
+<ion-menu [content]="mainContent">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>
+        Contents
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content id="side-menu21">
+    <ion-list id="contents-list1">
+      <ion-item color="none" menuClose="" on-click="goToHome()" id="contents-list-item1">
+        Home
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToPreface()" id="contents-list-item2">
+        Preface
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToIntroduction()" id="contents-list-item3">
+        Introduction
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToChapter1TheBuildingBlocksOfPidgin()" id="contents-list-item4">
+        The Building Blocks
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToChapter2Sentences()" id="contents-list-item5">
+        Sentences
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToChapter3Nouns()" id="contents-list-item6">
+        Nouns
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToChapter4Pronouns()" id="contents-list-item7">
+        Pronouns
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToChapter5Adjectives()" id="contents-list-item8">
+        Adjectives
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToChapter6VerbTense()" id="contents-list-item9">
+        Verb Tense
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToChapter7Concord()" id="contents-list-item10">
+        Concord
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToChapter8Prepositions()" id="contents-list-item11">
+        Prepositions
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToChapter9Conjunctions()" id="contents-list-item12">
+        Conjunctions
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToChapter10Interjections()" id="contents-list-item13">
+        Interjections
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToChapter11DirectIndirectSpeech()" id="contents-list-item14">
+        Direct and Indirect Speech
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToChapter12SentenceTypesAndMoreOnPhrases()" id="contents-list-item15">
+        Sentence Types and More on Phrases
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToThanks()" id="contents-list-item16">
+        Thanks
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToAppendixAAnswersToExercises()" id="contents-list-item17">
+        Answers to Exercises
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<ion-nav #mainContent [root]="rootPage"></ion-nav>
